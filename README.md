@@ -1,67 +1,59 @@
 ☠️ JARDECODER </>
 IP LOOKUP TOOL
 
-JARDECODER is a Python-based IP Lookup tool designed to retrieve IP address information and approximate geographical locations.
+JARDECODER is a Python-based IP Lookup tool for retrieving IP address information and approximate geographical locations.
 
-✨ Features
-🌐 Domain IP Lookup
-📡 Own Public IP Lookup
-🌍 Country Information
-🏙️ Region and City Information
-🛜 ISP Information
-📍 Latitude and Longitude
-🗺️ Google Maps Location Link
-💾 Automatic TXT Report Saving
-🎨 Terminal Interface with ANSI Colors
-💻 Chafa ASCII Image Display
-📱 Requirements
+Features
+Domain IP Lookup
+Own Public IP Lookup
+Country Information
+Region and City Information
+ISP Information
+Latitude and Longitude
+Google Maps Location
+Automatic TXT Report
+Terminal Interface
+Chafa Image Display
+Requirements
+Kali Linux / Debian Linux
 Python 3
-Termux / Linux / Windows
-Internet Connection
-Requests Library
-Chafa (optional)
-⚙️ Installation
-Termux
-bash
-pkg update && pkg upgrade -y
-pkg install python chafa git -y
-pip install requests
+Internet connection
+Installation
 
-Clone Repository
+Clone this repository:
+
 bash
 git clone https://github.com/USERNAME/JARDECODER.git
 cd JARDECODER
 
-Run Script
+
+Run installer:
+
 bash
-python jardecoder.py
+chmod +x install.sh
+./install.sh
 
-🖥️ Menu
-text
-╔════════════════════════════════════╗
-║          JARDECODER </>            ║
-║          SYSTEM TERMINAL           ║
-╠════════════════════════════════════╣
-║  [1] Domain IP Lookup               ║
-║  [2] Own Public IP Lookup           ║
-║  [0] Exit                           ║
-╚════════════════════════════════════╝
+Run
+bash
+./.venv/bin/python jardecoder.py
 
-📂 Output
+Output
 
-Lookup reports are automatically saved as:
+Lookup reports are saved to:
 
 text
-hasil_ip.txt
+~/hasil_ip.txt
 
-⚠️ Disclaimer
-IP geolocation provides approximate network location, not exact GPS coordinates.
+Disclaimer
+
+IP geolocation is approximate and does not identify an exact physical or GPS location.
+
 Use this tool responsibly and only for legitimate purposes.
-Do not use this tool to violate anyone's privacy.
-👨‍💻 Author
+
+Author
 
 JARDECODER
 
-Made with Python ❤️
+Made with Python.
 
 JARDECODER </>

@@ -1,59 +1,113 @@
 ☠️ JARDECODER </>
 IP LOOKUP TOOL
 
-JARDECODER is a Python-based IP Lookup tool for retrieving IP address information and approximate geographical locations.
+JARDECODER is a Python-based IP Lookup tool that retrieves IP address information and approximate geographical locations.
 
-Features
-Domain IP Lookup
-Own Public IP Lookup
-Country Information
-Region and City Information
-ISP Information
-Latitude and Longitude
-Google Maps Location
-Automatic TXT Report
-Terminal Interface
-Chafa Image Display
-Requirements
-Kali Linux / Debian Linux
+✨ Features
+🌐 Domain IP Lookup
+📡 Own Public IP Lookup
+🌍 Country Information
+🏙️ Region and City Information
+🛜 ISP Information
+📍 Latitude and Longitude
+🗺️ Google Maps Location
+💾 Automatic TXT Report Saving
+🎨 Terminal Interface
+📱 Supported Platforms
+Kali Linux
+Debian / Ubuntu
+Android (Termux)
+📦 Requirements
 Python 3
 Internet connection
-Installation
+Requests library
+Chafa (optional)
+🚀 Installation
+1. Termux (Android)
 
-Clone this repository:
+Update packages:
+
+bash
+pkg update && pkg upgrade -y
+
+
+Install dependencies:
+
+bash
+pkg install python git chafa -y
+
+
+Clone repository:
+
+bash
+git clone https://github.com/USERNAME/JARDECODER.git
+
+
+Enter directory:
+
+bash
+cd JARDECODER
+
+
+Install Python requirements:
+
+bash
+pip install -r requirements.txt
+
+
+Run JARDECODER:
+
+bash
+python jar_ip.py
+
+2. Kali Linux
+
+Install dependencies:
+
+bash
+sudo apt update
+sudo apt install python3 python3-venv chafa git -y
+
+
+Clone repository:
 
 bash
 git clone https://github.com/USERNAME/JARDECODER.git
 cd JARDECODER
 
 
-Run installer:
+Create virtual environment:
 
 bash
-chmod +x install.sh
-./install.sh
+python3 -m venv .venv
 
-Run
+
+Install requirements:
+
 bash
-./.venv/bin/python jardecoder.py
+.venv/bin/pip install -r requirements.txt
 
-Output
 
-Lookup reports are saved to:
+Run:
+
+bash
+.venv/bin/python jar_ip.py
+
+📂 Output
+
+Lookup reports are saved as:
 
 text
 ~/hasil_ip.txt
 
-Disclaimer
-
-IP geolocation is approximate and does not identify an exact physical or GPS location.
-
-Use this tool responsibly and only for legitimate purposes.
-
-Author
+⚠️ Disclaimer
+IP geolocation is approximate, not exact GPS tracking.
+Use this tool responsibly.
+Respect other people's privacy.
+👨‍💻 Author
 
 JARDECODER
 
-Made with Python.
+Made with Python ❤️
 
 JARDECODER </>
